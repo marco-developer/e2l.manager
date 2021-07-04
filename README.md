@@ -10,7 +10,7 @@ Esta aplicação tem como objetivo realizar a coleta de eventos dos contêineres
 - mkdir <diretório>
 - cd <diretório>
 - Clonar o repositório
-- Fazer as alterações de ip e token necessárias para ajustar o app.js ao ambiente
+- Necessário alterar os ips referentes ao endereço de coleta de eventos e da api da blockchain
 - docker build -t event2ledger .
 - docker run --name event2ledger -d event2ledger
 
